@@ -7,8 +7,8 @@ const Counter = () => {
       <button
         onClick={() => {
           setcount(count - 1);
-        }} 
-        className="w-20 bg-green-400 cursor-pointer"
+        }}
+        className="w-20 bg-green-300 cursor-pointer"
       >
         -
       </button>
