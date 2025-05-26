@@ -1,11 +1,11 @@
 import React from 'react'
-import Counter from './Pages/Home/counter'
-import Toggle from './Pages/Home/Toggle'
 
 const App = () => {
+  const userData=['anil','ejaz','sam','peter']
   return (
-    // <div> <Counter/></div>
-    <Toggle/>
+    <div>
+      <h1>Loop in JSX with Map function</h1>
+    </div>
   )
 }
 
